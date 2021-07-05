@@ -1,0 +1,26 @@
+  
+# This file is used to ignore files which are generated
+# Copied from https://github.com/andy-fillebrown/audiocarver-blender-addon/blob/master/.gitignore
+# ----------------------------------------------------------------------------
+
+*.lnk
+
+# Python cache files generated when running Blender
+# -------------------------------------------------
+*__pycache__*
+
+# Blender backup files
+# --------------------
+*.blend1
+*.blend2
+
+# Scripts that are not portable
+# -----------------------------
+scripts/__debug__.py
+scripts/__debug__.sh
+blendenv.bat
+blendenv.sh
+
+# CLI import .blend output
+# ------------------------
+src/testing/*.blend
